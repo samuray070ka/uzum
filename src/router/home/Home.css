@@ -1,0 +1,152 @@
+.pa{
+    width: 85%;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.card{
+    width: 250px;
+    height: 420px;
+    margin-left: 20px;
+    box-shadow: 0 0 .5px #0008;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .4s;
+    overflow: hidden;
+}
+.card:hover{
+    box-shadow: 0 0 2px #0008;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+}
+.img1{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: .4s;
+}
+.img1:hover{
+    transform: scale(1.04);
+    border-radius: 5px 5px 0 0;
+}
+.h4{
+    font-weight: 400;
+    font-size: 14px;
+    padding: 5px;
+}
+.h3{
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+.btn2{
+    border: none;
+    background: gold;
+    width: 110px;
+    font-size: 12px;
+    border-radius: 4px;
+    padding-left: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.625);
+    height: 20px;
+}
+.del{
+    margin-left: 5px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.405);
+}
+.img2{
+    width: 90%;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 35px;
+    cursor: pointer;
+    transition: .4s;
+}
+.img2:hover{
+    transform: scale(1.02);
+}
+.ji{
+    overflow: hidden;
+    width: 100%;
+}
+.jii{
+    width: 100%;
+}
+.img3{
+    width: 89%;
+    margin-top: 30px;
+    margin-left: 39px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+.img3:hover{
+    transform: scale(1.03);
+}
+.home{
+    padding-top: 100px;
+}
+
+
+
+
+
+@media screen and (max-width:1100px) {
+    .pa{
+        width: 70%;
+    }
+    .logo{
+        width: 200%;
+        transform: translateX(-50px);
+    }
+    .card{
+        width: 300px;
+    }
+    .navbarbottom{
+        display: none;
+    }
+}
+@media screen and (max-width:990px) {
+    .card{
+        margin: auto;
+        display: block;
+        /* transform: translateX(-30px); */
+        margin-top: 20px;
+        /* margin-left: 1px; */
+    }
+}
+@media screen and (max-width:669px) {
+    .pa{
+        width: 70%;
+        height: 250px;
+        transform: translateX(-50px);
+    }
+    .mySwiper{
+        width: 120%;
+    }
+    .card{
+        width: 250px;
+        transform: translateX(20px);
+    }
+}
+@media screen and (max-width:565px) {
+    .card{
+        width: 200px;
+    }
+    .logo{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:450px) {
+    .card{
+        width: 300px;
+    }
+}

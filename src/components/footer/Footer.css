@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 70px;
+    flex-wrap: wrap;
+    min-height: 50vh;
+}
+.footer2{
+    margin-left: 150px;
+}
+.collaction2{
+    list-style: none;    
+}
+.title{
+    font-size: 17px;
+}
+.item2{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 100;
+}

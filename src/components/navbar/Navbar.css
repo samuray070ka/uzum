@@ -1,0 +1,86 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: #eee;
+    z-index: 10;
+    position: fixed;
+}
+.icon{
+    display: flex;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 30px;
+    border: none;
+    background: rgba(167, 204, 241, 0.285);
+    border-radius: 4px;
+    font-size: 17px;
+    color: dodgerblue;
+    cursor: pointer;
+}
+.i{
+    font-size: 20px;
+    transform: translateY(3px) translateX(-5px);
+}
+.inp{
+    width: 500px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.322);
+    padding-left: 15px;
+    font-size: 15px;
+    border-radius: 5px 0 0 5px ;
+    outline: none;
+}
+.ic{
+    font-size: 15px;
+    margin-top: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    width: 100px;
+    height: 40px;
+    padding: 7px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.053);
+}
+.logo1{
+    margin-top: 25px;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    transform: translateY(-7px);
+}
+.kp{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.ico{
+    font-size: 22px;
+    transform: translateY(5px);
+}
+.icon1{
+    transform: translateY(5px);
+    font-size: 22px;
+}
+.icons{
+    transform: translateY(5px);
+    font-size: 22px;
+}
+@media screen and (max-width:565px) {
+    .icon{
+        display: none;
+    }
+}
+@media screen and (max-width:380px) {
+    .inp{
+        display: none;
+    }
+    .ic{
+        display: none; 
+    }
+}
